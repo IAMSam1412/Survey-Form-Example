@@ -1,0 +1,153 @@
+<body>
+    <h1 id="title">favourite evening snack Survey Form</h1>
+  
+  <p id="description"> Evening snacks are the most important meal of the day, and its very important we understand what everyone eats to realise the efficiency of humanity.</p>
+  
+    <!-- Create Form -->
+    <form id="survey-form">
+ 
+        <!-- Details -->
+        <div class="survey-form-control">
+            <label for="name" id="name">
+                Name
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="name-label"
+                   placeholder="Enter your name" />
+        </div>
+  
+        <div class="survey-form-control">
+            <label for="email" id="email">
+                Email
+            </label>
+ 
+            <!-- Input Type Email-->
+            <input type="email"
+                   id="email-label"
+                   placeholder="Enter your email" />
+        </div>
+  
+        <div class="survey-form-control">
+     <label for="age" id="number">
+                Age
+            </label>
+ 
+  <!-- Input Type Text -->
+   <input type="number"
+    id="number-label"
+    placeholder="Enter your age"
+    min="1" max="99"/>
+          
+        </div>
+  
+        <div class="survey-form-control">
+            <label for="role" id="label-role">
+                Which option best describes you?
+            </label>
+             
+            <!-- Dropdown options -->
+            <select name="role" id="role">
+                <option value="student">Student</option>
+                <option value="intern">Intern</option>
+                <option value="professional">
+                    Professional
+                </option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+  
+        <div class="survey-form-control">
+           
+          
+          <div class="survey-form-control">
+            <label for="role" id="label-role">
+                
+      </label>
+             
+
+  <label for="appt">Choose the time you have to wake up in the morning</label>
+
+<input type="time" id="appt" name="appt"
+       min="04:00" max="12:00" required>
+
+<small>This helps us understand your evening snack choice</small>
+  
+<div class="survey-form-control">
+     <label>
+     would you reccomend this snack to a friend?         
+     </label>
+ 
+            <!-- Input Type Radio Button -->
+            <label for="recommed-1">
+                <input type="radio"
+                       id="recommed-1"
+                       name="recommed">Yes</input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio"
+                       id="recommed-2"
+                       name="recommed">No</input>
+            </label>
+            <label for="recommed-3">
+                <input type="radio"
+                       id="recommed-3"
+                       name="recommed">Maybe</input>
+            </label>
+        </div>
+  
+        <div class="survey-form-control">
+            <label>evening snack of choice
+                <small>(Check all that apply)</small>
+            </label>
+            <!-- Input Type Checkbox -->
+            <label for="inp-1">
+                <input type="checkbox"
+                       name="inp">Cereal</input></label>
+            <label for="inp-2">
+<input type="checkbox"
+       name="inp">toast</input></label>
+            <label for="inp-3">
+                <input type="checkbox"
+                       name="inp">milk</input></label>
+            <label for="inp-4">
+                <input type="checkbox"
+                       name="inp">sandwich</input></label>
+            <label for="inp-5">
+                <input type="checkbox"
+                       name="inp">bagels</input></label>
+            <label for="inp-6">
+                <input type="checkbox"
+                       name="inp">crumpets</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">chocolate milk</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">strawberry milk</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">cookies</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">leftover dinner</input></label>
+        </div>
+  
+        <div class="survey-form-control">
+            <label for="comment">
+                Thinking outside the box? tell us your evening snack
+            </label>
+ 
+            <!-- multi-line text input control -->
+            <textarea name="comment" id="comment"
+                placeholder="Enter your comment here">
+            </textarea>
+        </div>
+  
+        <!-- Multi-line Text Input Control -->
+        <button id=submit type="submit" value="submit">
+            Submit
+        </button>
+    </form>
+</body>

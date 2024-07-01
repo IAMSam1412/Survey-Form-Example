@@ -1,0 +1,73 @@
+#title{
+    color: #22AED1;
+  }
+  
+  #description{
+    color:#016FB9;
+  }
+  
+  
+  /* Styling the Body element i.e. Color,
+          Font, Alignment */
+          body {
+              background-color: #182825;
+              font-family: Verdana;
+              text-align: center;
+              
+          }
+   
+          /* Styling the Form (Color, Padding, Shadow) */
+          #survey-form {
+              background-color: #016FB9;
+              max-width: 500px;
+              margin: 50px auto;
+              padding: 30px 20px;
+              box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.5);
+            border: 5px gradient #22AED1;
+          }
+   
+          /* Styling form-control Class */
+          .survey-form-control {
+              text-align: left;
+              margin-bottom: 25px;
+          }
+   
+          /* Styling form-control Label */
+          .survey-form-control label {
+              display: block;
+              margin-bottom: 10px;
+          }
+   
+          /* Styling form-control input,
+          select, textarea */
+          .survey-form-control input,
+          .survey-form-control select,
+          .survey-form-control textarea {
+              border: 1px solid #777;
+              border-radius: 2px;
+              font-family: inherit;
+              padding: 10px;
+              display: block;
+              width: 95%;
+          }
+   
+          /* Styling form-control Radio
+          button and Checkbox */
+          .survey-form-control input[type="radio"],
+          .survey-form-control input[type="checkbox"] {
+              display: inline-block;
+              width: auto;
+          }
+   
+          /* Styling Button */
+          button {
+              background-color: #05c46b;
+              border: 1px solid #777;
+              border-radius: 2px;
+              font-family: inherit;
+              font-size: 21px;
+              display: block;
+              width: 100%;
+              margin-top: 50px;
+              margin-bottom: 20px;
+          }
